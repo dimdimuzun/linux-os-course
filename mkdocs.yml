@@ -1,8 +1,8 @@
 site_name: Операційні системи — Основи Linux
 site_description: Навчальний курс з операційних систем та основ Linux
-site_url: https://USERNAME.github.io/linux-os-course/
+site_url: https://dimdimuzun.github.io/linux-os-course/
 repo_name: linux-os-course
-repo_url: https://github.com/USERNAME/linux-os-course
+repo_url: https://github.com/dimdimuzun/linux-os-course
 edit_uri: edit/main/docs/
 
 theme:
