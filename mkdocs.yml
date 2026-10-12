@@ -1,0 +1,90 @@
+site_name: Операційні системи — Основи Linux
+site_description: Навчальний курс з операційних систем та основ Linux
+site_url: https://USERNAME.github.io/linux-os-course/
+repo_name: linux-os-course
+repo_url: https://github.com/USERNAME/linux-os-course
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: uk
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+  icon:
+    edit: material/pencil
+    view: material/eye
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+nav:
+  - Головна: index.md
+  - Курс:
+      - Силабус: syllabus.md
+      - Результати навчання: learning-outcomes.md
+      - Оцінювання: assessment.md
+  - Модулі:
+      - "01. Linux та операційні системи": modules/01-linux-and-os.md
+      - "02. Робоче середовище Linux": modules/02-linux-environment.md
+      - "03. Файлова система": modules/03-filesystem.md
+      - "04. Shell та командний рядок": modules/04-shell.md
+      - "05. Файли та каталоги": modules/05-files-and-directories.md
+      - "06. Права доступу": modules/06-permissions.md
+      - "07. Користувачі та групи": modules/07-users-and-groups.md
+      - "08. Процеси": modules/08-processes.md
+      - "09. Пакети та програмне забезпечення": modules/09-packages.md
+      - "10. Systemd": modules/10-systemd.md
+      - "11. Мережі Linux": modules/11-networking.md
+      - "12. Мережеві інструменти": modules/12-network-tools.md
+      - "13. Диски та файлові системи": modules/13-storage.md
+      - "14. Bash-скриптинг": modules/14-bash-scripting.md
+      - "15. Логи та безпека": modules/15-logs-and-security.md
+      - "16. Діагностика Linux": modules/16-troubleshooting.md
+  - Лабораторні роботи:
+      - "ЛР1. Linux та робоче середовище": labs/lab-01-linux-environment.md
+      - "ЛР2. Файлова система та Shell": labs/lab-02-filesystem-shell.md
+      - "ЛР3. Файли та права доступу": labs/lab-03-files-permissions.md
+      - "ЛР4. Користувачі та процеси": labs/lab-04-users-processes.md
+      - "ЛР5. Пакети та Systemd": labs/lab-05-packages-systemd.md
+      - "ЛР6. Мережі Linux": labs/lab-06-networking.md
+      - "ЛР7. Сховище та Bash": labs/lab-07-storage-bash.md
+      - "ЛР8. Логи та безпека": labs/lab-08-logs-security.md
+  - Квізи:
+      - "Квіз 1": quizzes/quiz-01.md
+      - "Квіз 2": quizzes/quiz-02.md
+  - Довідник:
+      - "Команди Linux": reference/commands.md
+      - "Файлова система": reference/filesystem.md
+      - "Права доступу": reference/permissions.md
+      - "Користувачі": reference/users.md
+      - "Процеси": reference/processes.md
+      - "Systemd": reference/systemd.md
+      - "Мережі": reference/networking.md
+      - "Сховище": reference/storage.md
+      - "Bash": reference/bash.md
+  - Глосарій: glossary/glossary.md
+  - Ресурси:
+      - Книги: resources/books.md
+      - Документація: resources/documentation.md
+      - Інструменти: resources/tools.md

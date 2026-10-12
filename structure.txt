@@ -1,0 +1,222 @@
+.
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── docs
+│   ├── assessment.md
+│   ├── assets
+│   │   ├── diagrams
+│   │   ├── images
+│   │   └── screenshots
+│   ├── glossary
+│   │   └── glossary.md
+│   ├── index.md
+│   ├── labs
+│   │   ├── lab-01-linux-environment.md
+│   │   ├── lab-02-filesystem-shell.md
+│   │   ├── lab-03-files-permissions.md
+│   │   ├── lab-04-users-processes.md
+│   │   ├── lab-05-packages-systemd.md
+│   │   ├── lab-06-networking.md
+│   │   ├── lab-07-storage-bash.md
+│   │   └── lab-08-logs-security.md
+│   ├── learning-outcomes.md
+│   ├── modules
+│   │   ├── 01-linux-and-os.md
+│   │   ├── 02-linux-environment.md
+│   │   ├── 03-filesystem.md
+│   │   ├── 04-shell.md
+│   │   ├── 05-files-and-directories.md
+│   │   ├── 06-permissions.md
+│   │   ├── 07-users-and-groups.md
+│   │   ├── 08-processes.md
+│   │   ├── 09-packages.md
+│   │   ├── 10-systemd.md
+│   │   ├── 11-networking.md
+│   │   ├── 12-network-tools.md
+│   │   ├── 13-storage.md
+│   │   ├── 14-bash-scripting.md
+│   │   ├── 15-logs-and-security.md
+│   │   ├── 16-troubleshooting.md
+│   │   └── m1.md
+│   ├── quizzes
+│   │   ├── quiz-01.md
+│   │   └── quiz-02.md
+│   ├── reference
+│   │   ├── bash.md
+│   │   ├── commands.md
+│   │   ├── filesystem.md
+│   │   ├── networking.md
+│   │   ├── permissions.md
+│   │   ├── processes.md
+│   │   ├── storage.md
+│   │   ├── systemd.md
+│   │   └── users.md
+│   ├── resources
+│   │   ├── books.md
+│   │   ├── documentation.md
+│   │   └── tools.md
+│   └── syllabus.md
+├── examples
+│   └── hello.sh
+├── LICENSE
+├── mkdocs.yml
+├── README.md
+├── requirements.txt
+├── scripts
+│   └── check.sh
+├── site
+│   ├── 404.html
+│   ├── assessment
+│   │   └── index.html
+│   ├── assets
+│   │   ├── images
+│   │   │   └── favicon.png
+│   │   ├── javascripts
+│   │   │   ├── bundle.f55a23d4.min.js
+│   │   │   ├── bundle.f55a23d4.min.js.map
+│   │   │   ├── lunr
+│   │   │   │   ├── min
+│   │   │   │   │   ├── lunr.ar.min.js
+│   │   │   │   │   ├── lunr.da.min.js
+│   │   │   │   │   ├── lunr.de.min.js
+│   │   │   │   │   ├── lunr.du.min.js
+│   │   │   │   │   ├── lunr.el.min.js
+│   │   │   │   │   ├── lunr.es.min.js
+│   │   │   │   │   ├── lunr.fi.min.js
+│   │   │   │   │   ├── lunr.fr.min.js
+│   │   │   │   │   ├── lunr.he.min.js
+│   │   │   │   │   ├── lunr.hi.min.js
+│   │   │   │   │   ├── lunr.hu.min.js
+│   │   │   │   │   ├── lunr.hy.min.js
+│   │   │   │   │   ├── lunr.it.min.js
+│   │   │   │   │   ├── lunr.ja.min.js
+│   │   │   │   │   ├── lunr.jp.min.js
+│   │   │   │   │   ├── lunr.kn.min.js
+│   │   │   │   │   ├── lunr.ko.min.js
+│   │   │   │   │   ├── lunr.multi.min.js
+│   │   │   │   │   ├── lunr.nl.min.js
+│   │   │   │   │   ├── lunr.no.min.js
+│   │   │   │   │   ├── lunr.pt.min.js
+│   │   │   │   │   ├── lunr.ro.min.js
+│   │   │   │   │   ├── lunr.ru.min.js
+│   │   │   │   │   ├── lunr.sa.min.js
+│   │   │   │   │   ├── lunr.stemmer.support.min.js
+│   │   │   │   │   ├── lunr.sv.min.js
+│   │   │   │   │   ├── lunr.ta.min.js
+│   │   │   │   │   ├── lunr.te.min.js
+│   │   │   │   │   ├── lunr.th.min.js
+│   │   │   │   │   ├── lunr.tr.min.js
+│   │   │   │   │   ├── lunr.vi.min.js
+│   │   │   │   │   └── lunr.zh.min.js
+│   │   │   │   ├── tinyseg.js
+│   │   │   │   └── wordcut.js
+│   │   │   └── workers
+│   │   │       ├── search.973d3a69.min.js
+│   │   │       └── search.973d3a69.min.js.map
+│   │   └── stylesheets
+│   │       ├── main.84d31ad4.min.css
+│   │       ├── main.84d31ad4.min.css.map
+│   │       ├── palette.06af60db.min.css
+│   │       └── palette.06af60db.min.css.map
+│   ├── glossary
+│   │   └── glossary
+│   │       └── index.html
+│   ├── index.html
+│   ├── labs
+│   │   ├── lab-01-linux-environment
+│   │   │   └── index.html
+│   │   ├── lab-02-filesystem-shell
+│   │   │   └── index.html
+│   │   ├── lab-03-files-permissions
+│   │   │   └── index.html
+│   │   ├── lab-04-users-processes
+│   │   │   └── index.html
+│   │   ├── lab-05-packages-systemd
+│   │   │   └── index.html
+│   │   ├── lab-06-networking
+│   │   │   └── index.html
+│   │   ├── lab-07-storage-bash
+│   │   │   └── index.html
+│   │   └── lab-08-logs-security
+│   │       └── index.html
+│   ├── learning-outcomes
+│   │   └── index.html
+│   ├── modules
+│   │   ├── 01-linux-and-os
+│   │   │   └── index.html
+│   │   ├── 02-linux-environment
+│   │   │   └── index.html
+│   │   ├── 03-filesystem
+│   │   │   └── index.html
+│   │   ├── 04-shell
+│   │   │   └── index.html
+│   │   ├── 05-files-and-directories
+│   │   │   └── index.html
+│   │   ├── 06-permissions
+│   │   │   └── index.html
+│   │   ├── 07-users-and-groups
+│   │   │   └── index.html
+│   │   ├── 08-processes
+│   │   │   └── index.html
+│   │   ├── 09-packages
+│   │   │   └── index.html
+│   │   ├── 10-systemd
+│   │   │   └── index.html
+│   │   ├── 11-networking
+│   │   │   └── index.html
+│   │   ├── 12-network-tools
+│   │   │   └── index.html
+│   │   ├── 13-storage
+│   │   │   └── index.html
+│   │   ├── 14-bash-scripting
+│   │   │   └── index.html
+│   │   ├── 15-logs-and-security
+│   │   │   └── index.html
+│   │   ├── 16-troubleshooting
+│   │   │   └── index.html
+│   │   └── m1
+│   │       └── index.html
+│   ├── quizzes
+│   │   ├── quiz-01
+│   │   │   └── index.html
+│   │   └── quiz-02
+│   │       └── index.html
+│   ├── reference
+│   │   ├── bash
+│   │   │   └── index.html
+│   │   ├── commands
+│   │   │   └── index.html
+│   │   ├── filesystem
+│   │   │   └── index.html
+│   │   ├── networking
+│   │   │   └── index.html
+│   │   ├── permissions
+│   │   │   └── index.html
+│   │   ├── processes
+│   │   │   └── index.html
+│   │   ├── storage
+│   │   │   └── index.html
+│   │   ├── systemd
+│   │   │   └── index.html
+│   │   └── users
+│   │       └── index.html
+│   ├── resources
+│   │   ├── books
+│   │   │   └── index.html
+│   │   ├── documentation
+│   │   │   └── index.html
+│   │   └── tools
+│   │       └── index.html
+│   ├── search
+│   │   └── search_index.json
+│   ├── sitemap.xml
+│   ├── sitemap.xml.gz
+│   └── syllabus
+│       └── index.html
+├── structure.txt
+└── templates
+    ├── lab.md
+    ├── module.md
+    └── quiz.md
+
+73 directories, 147 files
